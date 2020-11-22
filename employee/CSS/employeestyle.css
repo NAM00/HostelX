@@ -1,0 +1,801 @@
+body{
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding:0;
+  margin:0;
+  background-color: lightblue;
+}
+/*global*/
+.container{
+  width:80%;
+  margin:auto;
+  overflow: hidden;
+}
+ul{
+  margin:0;
+  padding:0;
+  }
+.button1{
+    height:38px;
+    background: #e8491d;
+    border:0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:white;
+  }
+  .button2{
+      height:38px;body{
+        font: 15px/1.5 Arial, Helvetica, sans-serif;
+        padding:0;
+        margin:0;
+        background-color: rgb(99, 132, 143);
+      }
+      .grid-container {
+        display: inline-grid;
+        grid-template-columns: auto auto;
+      }
+      /*global*/
+      .container{
+        width:80%;
+        margin:auto;
+        overflow: hidden;
+      }
+      ul{
+        margin:0;
+        padding:0;
+        }
+      .button1{
+          height:38px;
+          background: #3b0d2d;
+          border:0;
+          padding-left: 20px;
+          padding-right: 20px;
+          color:white;
+        }
+        .button2{
+            height:38px;
+            background:#3b0d2d;
+            border:0;
+            padding-left: 20px;
+            padding-right: 20px;
+            color:white;
+          }
+        .dark{
+          padding: 15px;
+          background: #3c5668;
+          color: white;
+          margin-top: 10px;
+          margin-bottom: 10px;
+        }
+        .light{
+          padding: 55px;
+          background: #3c5668;
+          color: white;
+          margin-top: 10px;
+          margin-bottom: 10px;
+        }
+        .pagetitle{
+      
+        color: black;
+        font-size: 45px;
+      }
+      .logo{
+        font-size: 30px;
+      }
+      .bed{
+        width:80%;
+        margin:auto;
+        overflow: hidden;
+      }
+      .bedentry{
+        width:150px;
+        height: 35px;
+      }
+      
+      /*header*/
+      header{
+      
+        background: #000000;
+        color:#ffffff;
+        padding-top: 30px;
+        min-height: 70px;
+        border-bottom: #dda899 3px solid;
+      }
+      header a{
+        color:#ffffff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size:16px;
+      }
+      header li{
+          float:left;
+          display:inline;
+          padding:0 7px 0 7px;
+        }
+      header #branding{
+        float:left;
+      
+      }
+      header #branding h1{
+        margin:0;
+        }
+      header nav{
+        float:right;
+        margin-top:10px;
+       margin-left: 30px;
+        padding: 10px;
+      }
+      header .highlight, header .current a{
+        color:#ffffff;
+        font-weight: bold;
+      }
+      header a:hover{
+        color: #ffffff;
+        font-weight: bold;
+      }
+      #backgroundimage{
+        padding-top: none;
+        background: url('../img/hostel.jpg') no-repeat 0 -250px;
+        margin-top:0;
+      }
+      /*showcase*/
+      #showcase{
+        margin-top:0;
+        text-align: center;
+        min-height: 400px;
+        margin-bottom: 10px;
+      }
+      /*boxes*/
+      #boxes .box{
+        float:left;
+        width:20%;
+        height: 100px;
+        text-align: center;
+        padding:10px;
+      }
+      ul#range li{
+        list-style: none;
+        padding:10px;
+        border: grey solid 1px;
+        margin-bottom: 5px;
+        background: grey;
+      }
+      /*Admin*/
+      #boxes button:hover{
+        color:white;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      /*manage Employee*/
+      .btnN{
+        width: 100px;
+        height: 25px;
+      }
+      .btnL{
+        width: 250px;
+        height: 50px;
+        margin-right: 50px;
+        background: rgb(204, 204, 153);
+      }
+      #allstu{
+        background: #1f2a35;
+        height:450px;
+        width:750px;
+      }
+      #addemp button:hover{
+        background: rgb(161, 204, 161);
+        color:black;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      #addapplication button:hover{
+        background: rgb(151, 196, 151);
+        color:black;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      #addcomplaints button:hover{
+        background: rgb(146, 197, 146);
+        color:black;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      #t{
+      
+        margin-top: 150px;
+        margin-bottom:50px ;
+      
+      }
+      .m_emp{
+        float: left;
+        width: 500px;
+        height: 450px;
+        padding: 10px;
+        padding-bottom: 100px;
+        margin-left: 400px;
+        margin-right: 200px;
+        margin-top: 100px;
+        font-size: 15px;
+        font-weight: bold;
+      }
+      .m_com{
+        float: left;
+        width: 500px;
+        height: 450px;
+        padding: 10px;
+        padding-bottom: 100px;
+        margin-left: 20px;
+        font-size: 15px;
+        font-weight: bold;
+      }
+      .textareaN{
+        width: 200px
+       height: auto;
+      }
+      .textareaM{
+        width: 400px;
+        height: 300;
+      }
+      .showtable{
+        padding: 15px;
+        width: 450px;
+        height: 450px;
+      }
+      #search{
+        float: left;
+        color: black;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+      /*application*/
+      .m_app{body{
+        font: 15px/1.5 Arial, Helvetica, sans-serif;
+        padding:0;
+        margin:0;
+        background-color: rgb(99, 132, 143);
+      }
+      .grid-container {
+        display: inline-grid;
+        grid-template-columns: auto auto;
+      }
+      /*global*/
+      .container{
+        width:80%;
+        margin:auto;
+        overflow: hidden;
+      }
+      ul{
+        margin:0;
+        padding:0;
+        }
+      .button1{
+          height:38px;
+          background: #3b0d2d;
+          border:0;
+          padding-left: 20px;
+          padding-right: 20px;
+          color:white;
+        }
+        .button2{
+            height:38px;
+            background:#3b0d2d;
+            border:0;
+            padding-left: 20px;
+            padding-right: 20px;
+            color:white;
+          }
+        .dark{
+          padding: 15px;
+          background: #3c5668;
+          color: white;
+          margin-top: 10px;
+          margin-bottom: 10px;
+        }
+        .light{
+          padding: 55px;
+          background: #3c5668;
+          color: white;
+          margin-top: 10px;
+          margin-bottom: 10px;
+        }
+        .pagetitle{
+      
+        color: black;
+        font-size: 45px;
+      }
+      .logo{
+        font-size: 30px;
+      }
+      .bed{
+        width:80%;
+        margin:auto;
+        overflow: hidden;
+      }
+      .bedentry{
+        width:150px;
+        height: 35px;
+      }
+      
+      /*header*/
+      header{
+      
+        background: #000000;
+        color:#ffffff;
+        padding-top: 30px;
+        min-height: 70px;
+        border-bottom: #dda899 3px solid;
+      }
+      header a{
+        color:#ffffff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size:16px;
+      }
+      header li{
+          float:left;
+          display:inline;
+          padding:0 7px 0 7px;
+        }
+      header #branding{
+        float:left;
+      
+      }
+      header #branding h1{
+        margin:0;
+        }
+      header nav{
+        float:right;
+        margin-top:10px;
+       margin-left: 30px;
+        padding: 10px;
+      }
+      header .highlight, header .current a{
+        color:#ffffff;
+        font-weight: bold;
+      }
+      header a:hover{
+        color: #ffffff;
+        font-weight: bold;
+      }
+      #backgroundimage{
+        padding-top: none;
+        background: url('../img/hostel.jpg') no-repeat 0 -250px;
+        margin-top:0;
+      }
+      /*showcase*/
+      #showcase{
+        margin-top:0;
+        text-align: center;
+        min-height: 400px;
+        margin-bottom: 10px;
+      }
+      /*boxes*/
+      #boxes .box{
+        float:left;
+        width:20%;
+        height: 100px;
+        text-align: center;
+        padding:10px;
+      }
+      ul#range li{
+        list-style: none;
+        padding:10px;
+        border: grey solid 1px;
+        margin-bottom: 5px;
+        background: grey;
+      }
+      /*Admin*/
+      #boxes button:hover{
+        color:white;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      /*manage Employee*/
+      .btnN{
+        width: 100px;
+        height: 25px;
+      }
+      .btnL{
+        width: 250px;
+        height: 50px;
+        margin-right: 50px;
+        background: rgb(204, 204, 153);
+      }
+      #allstu{
+        background: #1f2a35;
+        height:450px;
+        width:750px;
+      }
+      #addemp button:hover{
+        background: rgb(161, 204, 161);
+        color:black;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      #addapplication button:hover{
+        background: rgb(151, 196, 151);
+        color:black;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      #addcomplaints button:hover{
+        background: rgb(146, 197, 146);
+        color:black;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      #t{
+      
+        margin-top: 150px;
+        margin-bottom:50px ;
+      
+      }
+      .m_emp{
+        float: left;
+        width: 500px;
+        height: 450px;
+        padding: 10px;
+        padding-bottom: 100px;
+        margin-left: 400px;
+        margin-right: 200px;
+        margin-top: 100px;
+        font-size: 15px;
+        font-weight: bold;
+      }
+      .m_com{
+        float: left;
+        width: 500px;
+        height: 450px;
+        padding: 10px;
+        padding-bottom: 100px;
+        margin-left: 20px;
+        font-size: 15px;
+        font-weight: bold;
+      }
+      .textareaN{
+        width: 200px
+       height: auto;
+      }
+      .textareaM{
+        width: 400px;
+        height: 300px;
+      }
+      .showtable{
+        padding: 15px;
+        width: 450px;
+        height: 450px;
+      }
+      #search{
+        float: left;
+        color: black;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+      /*application*/
+      .m_app{
+        float: left;
+        width: 500px;
+        height: 450px;
+        padding: 10px;
+        padding-bottom: 100px;
+        margin-left: 20px;
+        font-size: 15px;
+        font-weight: bold;
+      }
+      footer{
+        padding:20px;
+        margin-bottom: :20px;
+        color: red;
+        background-color: black;
+      }
+      
+      @media (max-width:760px){
+        header #branding,header nav, header nav li, #newsletter h1,#newsletter form{
+          float: none;
+          text-align: center;
+          width:100%;
+        }
+        header{
+          padding-bottom: 20px;
+        }
+        #showcase h1{
+          margin-top: 40px;
+        }
+        #boxes .container{
+          padding: 0;
+        width:350px;
+        }
+        #boxes .box{
+          width:300px;
+          padding: 10px;
+        }
+        .showtable{
+      
+          padding: 15px;
+          width: 250px;
+          height: 250px;
+        }
+      }
+      
+        float: left;
+        width: 500px;
+        height: 450px;
+        padding: 10px;
+        padding-bottom: 100px;
+        margin-left: 20px;
+        font-size: 15px;
+        font-weight: bold;
+      }
+      footer{
+        padding:20px;
+        margin-bottom: :20px;
+        color: red;
+        background-color: black;
+      }
+      
+      @media (max-width:760px){
+        header #branding,header nav, header nav li, #newsletter h1,#newsletter form{
+          float: none;
+          text-align: center;
+          width:100%;
+        }
+        header{
+          padding-bottom: 20px;
+        }
+        #showcase h1{
+          margin-top: 40px;
+        }
+        #boxes .container{
+          padding: 0;
+        width:350px;
+        }
+        #boxes .box{
+          width:300px;
+          padding: 10px;
+        }
+        .showtable{
+      
+          padding: 15px;
+          width: 250px;
+          height: 250px;
+        }
+      }
+      
+      background: #e8491d;
+      border:0;
+      padding-left: 20px;
+      padding-right: 20px;
+      color:white;
+    }
+  .dark{
+    padding: 15px;
+    background: #35424a;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .light{
+    padding: 15px;
+    background: #99ffe6;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .pagetitle{
+
+  color: black;
+  font-size: 45px;
+}
+.logo{
+  font-size: 30px;
+}
+.bed{
+  width:80%;
+  margin:auto;
+  overflow: hidden;
+}
+.bedentry{
+  width:150px;
+  height: 35px;
+}
+/*header*/
+header{
+
+  background: #330066;
+  color:#ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #e8491d 3px solid;
+}
+header a{
+  color:#ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+header li{
+    float:left;
+    display:inline;
+    padding:0 7px 0 7px;
+  }
+header #branding{
+  float:left;
+
+}
+header #branding h1{
+  margin:0;
+  }
+header nav{
+  float:right;
+  margin-top:10px;
+ margin-left: 30px;
+  padding: 10px;
+}
+header .highlight, header .current a{
+  color:#e8491d;
+  font-weight: bold;
+}
+header a:hover{
+  color:red;
+  font-weight: bold;
+}
+#backgroundimage{
+  padding-top: none;
+  background: url('../img/hostel.jpg') no-repeat 0 -250px;
+  margin-top:0;
+}
+.category:hover{
+  color:blue;
+  font-weight: bold;
+}
+#addemp button:hover{
+  background: green;
+  color:black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#addapplication button:hover{
+  background: green;
+  color:black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#addcomplaints button:hover{
+  background: green;
+  color:black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/*showcase*/
+#showcase{
+  margin-top:0;
+  text-align: center;
+  min-height: 400px;
+  margin-bottom: 10px;
+}
+
+/*boxes*/
+#boxes .box{
+  float:left;
+  width:20%;
+  height: 100px;
+  text-align: center;
+  padding:10px;
+}
+
+/*manage Employee*/
+.btnN{
+  width: 100px;
+  height: 25px;
+}
+.btnL{
+  width: 250px;
+  height: 50px;
+  margin-right: 50px;
+  background: yellow;
+}
+#addemp button:hover{
+  background: green;
+  color:black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#addapplication button:hover{
+  background: green;
+  color:black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#addcomplaints button:hover{
+  background: green;
+  color:black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.m_emp{
+  float: left;
+  width: 500px;
+  height: 450px;
+  padding: 10px;
+  padding-bottom: 100px;
+  margin-left: 20px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.m_com{
+  float: left;
+  width: 500px;
+  height: 450px;
+  padding: 10px;
+  padding-bottom: 100px;
+  margin-left: 20px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.textareaN{
+  width: 200px
+ height: auto;
+}
+.showtable{
+  padding: 15px;
+  width: 450px;
+  height: 450px;
+}
+#search{
+  float: left;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/*application*/
+.m_app{
+  float: left;
+  width: 500px;
+  height: 450px;
+  padding: 10px;
+  padding-bottom: 100px;
+  margin-left: 20px;
+  font-size: 15px;
+  font-weight: bold;
+}
+footer{
+  padding:20px;
+  margin-top: 50px;
+  margin-bottom: :20px;
+  color: red;
+  background-color: black;
+}
+
+/*Employee*/
+#boxes button:hover{
+  color:white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+@media (max-width:760px){
+  header #branding,header nav, header nav li, #newsletter h1,#newsletter form{
+    float: none;
+    text-align: center;
+    width:100%;
+  }
+  header{
+    padding-bottom: 20px;
+  }
+  #showcase h1{
+    margin-top: 40px;
+  }
+  #newsletter button1{
+    display:block;
+    width:100%;
+  }
+  #boxes .container{
+    padding: 0;
+  width:300px;
+  }
+#boxes .box{
+  width:300px;
+  padding: 10px;
+}
+
+}
